@@ -1,0 +1,199 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,300;0,500;700;1,100&family=Nanum+Gothic&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Fira Sans', sans-serif;
+    background-image: linear-gradient(to bottom, #b09771, #b9a27d, #c2ac89, #ccb795, #d5c2a2, #d5c2a2, #d5c3a2, #d5c3a2, #ccb895, #c2ae89, #b9a37d, #b09971);
+    color:rgb(250, 235, 215)
+}
+.header{
+    height: 18vh;
+    background-image: url("../assets/img/fondo_index.jpg");
+    background-size: cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+}
+.contenedorLogo{
+    width: 40%;
+    display: inline-block;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.logo{
+    width:20%;
+}
+.navegacion{
+    display: inline-block;
+    width: 60%;
+    text-align: right;
+    position:absolute;
+    padding-top: 5px;
+    padding-right: 5px;
+}
+.listaItem{
+    list-style: none;
+    display: inline-block;
+    padding-left: 10px;
+    padding-top: 30px;
+}
+.linkNav{
+    text-decoration: none;
+    color: rgb(229, 216, 199);
+    font-size:1.2rem ;
+}
+.main{
+    height: 100vh;
+    background-image: url("../assets/img/fondo_index.jpg");
+    background-size: cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+}
+.contenedorTitulo{
+    height: 30%;
+}
+.titulo{
+    padding-top: 17px;
+    text-align: center;
+    font-size: 2rem;
+}
+.subtitulo{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.sectionCards{
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+}
+.sectionCards h3{
+    font-size:1rem;
+    padding-top: 10px;
+}
+.tituloCard{
+    text-align: center;
+    padding-top: 10px;
+    font-weight: 100;
+}
+.card{
+    width: 30%;
+    display: inline-block;
+    padding-top: 10px;
+}
+.card img{
+    width: 100%;
+    height: 30vh;
+    border-radius: 5px;
+}
+.footer{
+    background-image: url("../assets/img/fondo_index.jpg");
+    background-size: cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+   
+}
+.derechos{
+    font-size: 0.8rem;
+    font-family: sans-serif;
+    padding-top: 5px;  
+}
+.contenedorItems{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+.linkRedes{
+    padding-left: 20px;
+    padding-top: 6px;
+    align-items: flex-end;
+}
+
+.icon{
+    color: white;
+    font-size: 2rem;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+.mapa{
+    height: 20vh;
+    padding-right: 3px;
+    display: inline-block;
+    padding-top: 3px;
+    
+}
+.tituloContacto{
+    padding-top: 10px;
+    text-align: center;
+    font-size: 2rem;
+}
+.subtituloContacto{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.fondoContacto{
+    width: 100%;
+}
+.headerContacto{
+    height: 30vh; 
+    background-image: url("../assets/img/main_contacto.jpg");
+    background-size: cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+}
+.mainContacto{
+    height: 70vh;
+    
+}
+.headerGaleria{
+    height: 20vh; 
+}
+.mainGaleria{
+    height: 80vh;
+}
+
+.contenedorGaleria{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+.imagen{
+    width: 30%;
+    opacity: 0.8;
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+.imagen img{
+    width: 100%;
+    padding: 10px;
+}
+
+
+
+.footerServicios{
+    height: 20vh;
+    background-image: url("../assets/img/dylan-gillis-YJdCZba0TYE-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+}
+
+
+
+@media screen and (min-width:0px) and (max-width: 768px) {
+
+}
+@media screen and (min-width:769px) and (max-width:1024px){
+}
+    
