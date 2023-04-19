@@ -158,7 +158,7 @@ body{
     height: 20vh; 
 }
 .mainGaleria{
-    height: 80vh;
+    height: 135vh;
 }
 
 .contenedorGaleria{
@@ -180,14 +180,6 @@ body{
 
 
 
-.footerServicios{
-    height: 20vh;
-    background-image: url("../assets/img/dylan-gillis-YJdCZba0TYE-unsplash.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment:fixed;
-}
 
 
 
