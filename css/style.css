@@ -19,13 +19,13 @@ body{
     background-attachment:fixed;
 }
 .contenedorLogo{
-    width: 40%;
+    width: 30%;
     display: inline-block;
     padding-top: 20px;
     padding-left: 20px;
 }
 .logo{
-    width:20%;
+    width:15%;
 }
 .navegacion{
     display: inline-block;
@@ -41,6 +41,7 @@ body{
     padding-left: 10px;
     padding-top: 30px;
 }
+
 .linkNav{
     text-decoration: none;
     color: rgb(229, 216, 199);
@@ -69,7 +70,7 @@ body{
 }
 .sectionCards{
     text-align: center;
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
 }
 .sectionCards h3{
@@ -80,6 +81,7 @@ body{
     text-align: center;
     padding-top: 10px;
     font-weight: 100;
+    font-size: x-large;
 }
 .card{
     width: 30%;
