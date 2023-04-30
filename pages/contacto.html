@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="../css/style.css">
     
 </head>
-<body>
+<body class="bg-image" style="background-image: url(../assets/img/nosotros.png);">
     <header class="container-fluid">
             <nav class="navbar navbar-expand-lg navbar-light bg-linear-gradient">
                 <div class="container-fluid">
@@ -29,27 +29,37 @@
               </div>
             </div>
           </nav>
+          
+           
+            
     </header>
     <main class="mainContacto">
-        <section>
+        
+        <section class="py-5 text-center container containerSection">
             <h1 class="tituloContacto">Contactate con Nosotros</h1>
-            <p class="subtituloContacto">Completa el formulario y te responderemos a la brevedad.</p>
-        <form>
-            <div class="mb-3">
-                <label for="exampleFormControlInput1" class="form-label">Nombre y Apellido</label>
-                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nombre y Apellido">
-            </div>
-            <div class="mb-3">
-                <label for="exampleFormControlInput1" class="form-label">Email</label>
-                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com">
-            </div>
-            <div class="mb-3">
-                <label for="exampleFormControlTextarea1" class="form-label">Consulta</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-            </div>
-            <button type="button" class="btn btn-light">Enviar</button>
-            <button type="button" class="btn btn-light">Limpiar Formulario</button>
-        </form>
+            <p class="subtituloContacto"> Completa el formulario y te responderemos a la brevedad.</p>
+            <form class="form">
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Nombre y Apellido</label>
+                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nombre y Apellido">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Email</label>
+                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Teléfono</label>
+                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="+54 3476 667838">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Consulta</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Escribí tu consulta" rows="3"></textarea>
+                </div>
+                <button type="button" class="btn btn-light">Enviar</button>
+                <button type="button" class="btn btn-light">Limpiar Formulario</button>
+            </form>
+        </section>
+        
     </main>
     <hr>
     <footer>
