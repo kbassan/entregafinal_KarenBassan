@@ -1,5 +1,5 @@
 .mainGaleria{
-    height: 280vh;
+    height: auto;
     .titulo{
             padding-top: 17px;
             text-align: center;
@@ -31,13 +31,53 @@
 
  
 
-@media screen and (min-width:0px) and (max-width: 768px) {
-    .mainGaleria{
-        height: 100vh;
-    }
-}
-@media screen and (min-width:769px) and (max-width:1024px){
-    .mainGaleria{
-        height: 50vh;
-    }
-}
+    @media (min-width: 768px) and (max-width: 1023px) {
+        .mainGaleria {
+        height: auto;
+        
+        .titulo {
+        font-size: 1.8rem;
+        }
+        .subtitulo {
+        font-size: 1.3rem;
+        }
+        .contenedorGaleria {
+        display: block;
+        .imagen {
+        width: 45%;
+        margin: 10px;
+        img{
+            width: 100%;
+            padding: 10px;
+        }
+        }
+        }
+        }
+        }
+    @media (min-width: 1024px) {
+        .mainGaleria {
+        height: auto;
+        
+        .titulo {
+        font-size: 2rem;
+        }
+        .subtitulo {
+        font-size: 1.5rem;
+        }
+        .contenedorGaleria {
+        display: flex;
+        .imagen {
+        width: 30%;
+        margin: 10px;
+        img{
+            width: 100%;
+            padding: 10px;
+        }
+            }
+        }
+        }
+        }
+            
+            
+   
+        

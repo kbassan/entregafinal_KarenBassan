@@ -141,7 +141,7 @@ body{
     margin-top: 5rem;
 }
 .mainGaleria{
-    height: 280vh;
+    height: auto;
 }
 
 .contenedorGaleria{
