@@ -1,0 +1,22 @@
+$titulo: (
+fw-light: (
+display: flex,
+justify-content: center,
+align-items: center,
+color: $color-primario
+)
+);
+
+$caja-texto: (
+subtitulo: (
+padding-top: $spacing,
+text-align: center,
+font-size: 1.5rem
+),
+texto-index: (
+text-align: center,
+font-size: 1rem,
+font-style: italic,
+color: $color-terciario
+)
+);

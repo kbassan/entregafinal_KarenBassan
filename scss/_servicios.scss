@@ -12,16 +12,19 @@
             border-radius: 5px;
         }
         .text-center{
-            color: #94784d;
-            margin-top: 20px;
+           @mixin text-center{
+            color: $color-primario;
+            margin-top: $spacing;
+            text-align: center;
+           }
             
         }
         .card-body{
             width: 100%;
         }
         .card-text{
-            font-family:sans-serif;
-            color: #94784d;
+            font-family:$fuenteTitulos;
+            color: $color-primario;
         }
     }
 }

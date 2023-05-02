@@ -1,0 +1,12 @@
+@mixin card-props {
+    width: 30%;
+    display: inline-block;
+    padding-top: $spacing;
+    }
+    
+    @mixin text-center {
+    color: $color-primario;
+    margin-top: $spacing;
+    text-align: center;
+    }
+   
