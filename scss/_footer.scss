@@ -1,0 +1,35 @@
+.container-fluid{
+    .contenedorItems{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-end;
+        .linkRedes{
+            padding-left: 20px;
+            padding-top: 6px;
+            align-items: flex-end;
+            .icon{
+                color: white;
+                font-size: 2rem;
+                flex-wrap: wrap;
+                align-items: flex-end;
+            }
+        }
+    }
+    .mapa{
+        height: 20vh;
+        padding-right: 3px;
+        display: inline-block;
+        padding-top: 3px;
+        
+    }
+    .derechos{
+        font-size: 0.8rem;
+        font-family: sans-serif;
+        padding-top: 5px;  
+    }
+}
+
+
+
+
+

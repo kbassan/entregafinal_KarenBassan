@@ -1,0 +1,30 @@
+.container{
+    .container-div{
+        width: 80%;
+    }
+    .card{
+        width: 30%;
+        display: inline-block;
+        padding-top: 10px;
+        img{
+            width: 100%;
+            height: 30vh;
+            border-radius: 5px;
+        }
+        .text-center{
+            color: #94784d;
+            margin-top: 20px;
+            
+        }
+        .card-body{
+            width: 100%;
+        }
+        .card-text{
+            font-family:sans-serif;
+            color: #94784d;
+        }
+    }
+}
+.footerServicios{
+    margin-top: 2rem;
+}

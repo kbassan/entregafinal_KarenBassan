@@ -1,0 +1,43 @@
+.mainGaleria{
+    height: 280vh;
+    .titulo{
+            padding-top: 17px;
+            text-align: center;
+            font-size: 2rem;
+        }
+    .subtitulo{
+            padding-top: 20px;
+            text-align: center;
+            font-size: 1.5rem;
+        }
+    .contenedorGaleria{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            .imagen{
+                width: 30%;
+                opacity: 0.8;
+                flex-grow: 1;
+                flex-shrink: 0;
+                img{
+                    width: 100%;
+                    padding: 10px;
+                }
+            }
+        }
+    }
+
+
+
+ 
+
+@media screen and (min-width:0px) and (max-width: 768px) {
+    .mainGaleria{
+        height: 100vh;
+    }
+}
+@media screen and (min-width:769px) and (max-width:1024px){
+    .mainGaleria{
+        height: 50vh;
+    }
+}
