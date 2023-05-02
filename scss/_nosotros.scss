@@ -45,6 +45,29 @@ font-size: 0.8rem;
 }
 }
 .container {
+    .caja-texto{
+        background-color: #f2f2f2;
+        opacity: 0.8;
+        color: #b09771;
+        padding: 20px;
+        margin: 20px;
+        border-radius: 10px;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+        .subtitulo{
+            color: #b09771;
+            padding-top: 20px;
+            text-align: center;
+            font-size: 1.5rem;
+        }
+        .texto-nos{
+            color: #ccb795;
+            text-align: center;
+            font-size: 1rem;
+            font-style: italic;
+            
+        }
+    }
+
 .figure {
 margin-top: 20px;
 }
