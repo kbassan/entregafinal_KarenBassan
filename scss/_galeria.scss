@@ -1,11 +1,13 @@
 .mainGaleria{
     height: auto;
     .titulo{
+            color: $color-primario;
             padding-top: 17px;
             text-align: center;
             font-size: 2rem;
         }
     .subtitulo{
+            color: $color-secundario;
             padding-top: 20px;
             text-align: center;
             font-size: 1.5rem;
