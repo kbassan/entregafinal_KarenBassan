@@ -1,5 +1,5 @@
 .mainContacto{
-    height: 85vh;
+    height: 90vh;
     .tituloContacto{
         padding-top: 17px;
         text-align: center;
@@ -15,4 +15,21 @@
     }
     
 }
+.footer{
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
 
+}
+
+@media screen and (min-width:0px) and (max-width: 768px) {
+    .mainContacto{
+        height: 100vh;}
+    .footer {
+        height: 100vh;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
