@@ -25,7 +25,7 @@
 .main .caja-texto {
   background-color: #f2f2f2;
   opacity: 0.8;
-  color: #b09771;
+  color: #5f5039;
   padding: 20px;
   margin: 20px;
   border-radius: 10px;
@@ -59,6 +59,7 @@
   display: flex;
   flex-wrap: wrap;
   align-items: flex-end;
+  justify-content: center;
 }
 .container-fluid .contenedorItems .linkRedes {
   padding-left: 20px;
@@ -98,6 +99,13 @@
   font-size: 1rem;
   font-family: sans-serif;
   font-weight: 100;
+}
+
+.carousel-item {
+  height: 60%;
+}
+.carousel-item .img {
+  object-fit: cover;
 }
 
 .container .figure {
@@ -205,6 +213,21 @@
     flex-wrap: wrap;
   }
 }
+.error-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+.error-content .error-title {
+  font-size: 24px;
+  text-align: center;
+}
+.error-content .error-message {
+  font-size: 16px;
+  text-align: center;
+}
+
 * {
   margin: 0;
   padding: 0;
