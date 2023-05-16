@@ -39,25 +39,25 @@
         <section class="py-5 text-center container containerSection">
             <h1 class="tituloContacto">Contactate con Nosotros</h1>
             <p class="subtituloContacto"> Completa el formulario y te responderemos a la brevedad.</p>
-            <form class="form">
+            <form class="form" action="404.html">
                 <div class="mb-3">
                     <label for="exampleFormControlInput1" class="form-label">Nombre y Apellido</label>
-                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nombre y Apellido">
+                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nombre y Apellido" required>
                 </div>
                 <div class="mb-3">
                     <label for="exampleFormControlInput1" class="form-label">Email</label>
-                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com">
+                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com" required>
                 </div>
                 <div class="mb-3">
                     <label for="exampleFormControlInput1" class="form-label">Teléfono</label>
-                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="+54 3476 667838">
+                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="+54 3476 667838" required>
                 </div>
                 <div class="mb-3">
                     <label for="exampleFormControlTextarea1" class="form-label">Consulta</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Escribí tu consulta" rows="3"></textarea>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Escribí tu consulta" required rows="3"></textarea>
                 </div>
-                <button type="button" class="btn btn-light">Enviar</button>
-                <button type="button" class="btn btn-light">Limpiar Formulario</button>
+                <button type="submit" class="btn btn-light">Enviar</button>
+                <button type="submit" class="btn btn-light">Limpiar Formulario</button>
             </form>
         </section>
         
