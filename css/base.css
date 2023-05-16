@@ -213,21 +213,6 @@
     flex-wrap: wrap;
   }
 }
-.error-content {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 50%;
-}
-.error-content .error-title {
-  font-size: 24px;
-  text-align: center;
-}
-.error-content .error-message {
-  font-size: 16px;
-  text-align: center;
-}
-
 * {
   margin: 0;
   padding: 0;
