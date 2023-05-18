@@ -2,16 +2,17 @@
     .contenedorItems{
         display: flex;
         flex-wrap: wrap;
-        align-items: flex-end;
+        align-items: center;
+        justify-content: center;
         .linkRedes{
-            padding-left: 20px;
-            padding-top: 6px;
-            align-items: flex-end;
+            padding-left: 30px;
+            padding-top: 10px;
+            align-items: center;
             .icon{
                 color: white;
                 font-size: 2rem;
                 flex-wrap: wrap;
-                align-items: flex-end;
+                align-items: center;
             }
         }
     }

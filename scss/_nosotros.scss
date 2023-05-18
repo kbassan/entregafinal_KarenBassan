@@ -16,6 +16,12 @@
         }
     }
 }
+.carousel-item{
+    height: 60%;
+    .img{
+        object-fit: cover;
+    }
+}
 .container{
     .figure{
         padding: 10px;

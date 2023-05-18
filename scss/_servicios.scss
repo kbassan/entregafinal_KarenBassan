@@ -1,6 +1,9 @@
 .container{
     .container-div{
         width: 80%;
+        .servicios-text{
+            color: $color-texto;
+        }
     }
     .card{
         width: 30%;

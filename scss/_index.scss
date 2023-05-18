@@ -7,7 +7,7 @@
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                color: $color-primario;
+                color: $color-texto;
             }
         }
     
@@ -41,17 +41,19 @@
     .caja-texto{
         background-color: #f2f2f2;
         opacity: 0.8;
-        color: #b09771;
+        color: $color-texto;
         padding: 20px;
         margin: 20px;
         border-radius: 10px;
         box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
         .subtitulo{
+            color: $color-texto;
             padding-top: 20px;
             text-align: center;
             font-size: 1.5rem;
         }
         .texto-index{
+            color: $color-texto;
             text-align: center;
             font-size: 1rem;
             font-style: $tipografiaTextos;

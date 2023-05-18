@@ -53,6 +53,12 @@ body {
   padding-top: 17px;
   text-align: center;
   font-size: 2rem;
+  color: #5f5039;
+}
+.fw-light{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .card {
@@ -70,7 +76,7 @@ body {
 .caja-texto {
   background-color: #f2f2f2;
   opacity: 0.8;
-  color: #b09771;
+  color: #5f5039;
   padding: 20px;
   margin: 20px;
   border-radius: 10px;
@@ -86,20 +92,20 @@ body {
 .contenedorItems {
   display: flex;
   flex-wrap: wrap;
-  align-items: flex-end;
+  align-items: center;
 }
 
 .linkRedes {
   padding-left: 20px;
   padding-top: 6px;
-  align-items: flex-end;
+  align-items: center;
 }
 
 .icon {
   color: white;
   font-size: 2rem;
   flex-wrap: wrap;
-  align-items: flex-end;
+  align-items: center;
 }
 
 .mapa {
@@ -169,6 +175,37 @@ body {
 
 .footerServicios {
   margin-top: 2rem;
+}
+
+.main-404{
+  background-image: url(../assets/img/404-fondo.png);
+			width: 100%;
+			height: 100vh;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+      .container-404{
+        text-align: center;
+        width: 100%;
+        max-width: 400px;
+        background: #fff;
+        padding: 20px;
+        box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
+        border-radius: 5px;
+        line-height: 1.7;
+        color: #434343;
+        .boton{
+          display: inline-block;
+          margin-top: 15px;
+          text-decoration: none;
+          background: #91794f;
+          color: #fff;
+          padding: 10px 15px;
+          border-radius: 5px;
+          font-size: 15px;
+        }
+      }
+   
 }
 
 /*# sourceMappingURL=estilos.css.map */
